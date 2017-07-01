@@ -1,5 +1,5 @@
-// build env for dev env
-require('node-env-file')(__dirname + '/.env');
+// build env for dev env -- removed for production
+// require('node-env-file')(__dirname + '/.env');
 // DB stuff
 const db = require('./db');
 const Message = require('./models/message');
